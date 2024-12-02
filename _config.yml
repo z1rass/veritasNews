@@ -1,0 +1,19 @@
+title: My Blog
+description: My Personal Blog
+author: Your Name
+url: https://yourusername.github.io
+baseurl: "/VeritasBlog"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
